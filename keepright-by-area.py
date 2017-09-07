@@ -76,3 +76,4 @@ with open(str(workDir) + '/keepright_errors.txt', encoding='latin-1', newline=''
         if row[2] in (ErrOpt):
             if row[0] in (AreaOpt):
                 scriere.writerow(row)
+                
